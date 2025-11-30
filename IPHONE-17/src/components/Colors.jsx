@@ -66,7 +66,7 @@ const [selectedColor, setSelectedColor] = useState('blue');
                     <div className="grid gap-8 mt-20 grid-cols-2">
                         {models.map((model, index) =>(
 
-                                <div key={index} className="bg-gradient-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray ">
+                                <div key={index} className="bg-linear-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray ">
 
                                 <div className="text-4xl mb-4">📱</div>
                                 <h3 className="text-2xl font-bold mb-3">{model.name}</h3>
